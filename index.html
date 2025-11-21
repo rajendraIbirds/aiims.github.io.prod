@@ -1,6 +1,25 @@
 <html>
-  <head></head>
+  <head><title>My GitHub Page</title></head>
   <body>
-    <h1>Rajendra Singh</h1>
+     <script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+
+			embeddedservice_bootstrap.init(
+				'00DF9000001Fwgc',
+				'Chat_Bot_On_Git',
+				'https://data-agility-8468.my.site.com/ESWChatBotOnGit1763723983062',
+				{
+					scrt2URL: 'https://data-agility-8468.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://data-agility-8468.my.site.com/ESWChatBotOnGit1763723983062/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
   </body>
-<html>
+</html>
